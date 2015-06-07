@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "0.1",
+  "description": "A plain text description",
+  "page_action":{},
+  "permissions":["identity", "identity.email"],
+   "chrome_url_overrides" : {
+    "newtab": "index.html"
+  }
+}
