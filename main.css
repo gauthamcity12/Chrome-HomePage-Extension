@@ -21,7 +21,7 @@ h1 {
 	
 }
 
-input{
+#inputtext {
 	position: absolute;
 	top: 35%;
     left: 50%;
@@ -38,6 +38,19 @@ input{
 	color: white;
 	text-align: center;
 
+}
+
+#searchbutton{
+	background-color: white;
+	position: absolute;
+	top: 35%;
+    left: 78%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	text-align: center;
 }
 
 div{
